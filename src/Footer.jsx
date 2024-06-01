@@ -15,7 +15,7 @@ const TopFooter = () => {
   return (
     <div className="lg:flex gap-[70px] mb-8">
       <FirstCol />
-      <div className="flex justify-between w-full">
+      <div className="lg:flex lg:flex-row lg:justify-between flex flex-col gap-8 w-full">
         <SecondCol />
         <ThirdCol />
         <FourthCol />

@@ -47,7 +47,7 @@ const LeftTop = () => {
   return (
     <div className="p-5 lg:w-[308px] w-[50%] bg-[#bac1ff] rounded-3xl lg:h-[257px]   flex justify-center items-center">
       <img
-        className="max-h-[204px] max-w-[232px]  bg-[#bac1ff]"
+        className="max-h-[204px] max-w-[182px]  bg-[#bac1ff]"
         src="snake1.webp"
         alt=""
       />
