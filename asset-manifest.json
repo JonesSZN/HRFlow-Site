@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/hr-flow/static/css/main.2387e1b3.css",
+    "main.js": "/hr-flow/static/js/main.d29e3e62.js",
+    "index.html": "/hr-flow/index.html",
+    "main.2387e1b3.css.map": "/hr-flow/static/css/main.2387e1b3.css.map",
+    "main.d29e3e62.js.map": "/hr-flow/static/js/main.d29e3e62.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2387e1b3.css",
+    "static/js/main.d29e3e62.js"
+  ]
+}
