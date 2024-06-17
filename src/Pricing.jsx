@@ -1,4 +1,5 @@
 import { CheckIcon } from "lucide-react";
+import { useState } from "react";
 
 const Pricing = () => {
   return (
@@ -88,12 +89,26 @@ const BottomRow = () => {
 };
 
 const SaveRow = () => {
+  const [Slider, setSlider] = useState(false);
   return (
-    <div className="flex gap-6 py-8 cursor-pointer items-center">
+    <div className="flex z-40  gap-6 py-8 cursor-pointer items-center">
       <p className="text-[#263c61] text-[18px] font-bold">Monthly</p>
-      <button className="border-[2px] shadow-2xl border-[#ff6b82] rounded-full p-2 flex gap-3">
-        <div className="bg-[#c572721a] w-[55px] h-[38px] rounded-full"></div>
-        <div className="bg-[#ff6b82] w-[55px] h-[38px] rounded-full  "></div>
+      <button className="border-[2px]  relative  shadow-2xl border-[#ff6b82] rounded-full p-2 flex gap-3">
+        <div
+          onClick={() => setSlider(true)}
+          className="bg-[#c572721a] w-[55px] h-[38px] rounded-full" //left-button
+        ></div>
+
+        <div
+          onClick={() => setSlider(false)}
+          className="bg-[#c572721a] w-[55px] h-[38px] rounded-full  " //right-button
+        ></div>
+
+        <div
+          className={`bg-[#ff6b82]  absolute z-[999] w-[55px] h-[38px] rounded-full  ${
+            Slider ? "left-2" : "right-2"
+          } `}
+        ></div>
       </button>
       <p className="text-[#263c61] text-[18px] font-bold">Yearly</p>
     </div>
@@ -116,3 +131,6 @@ const TopDiv = () => {
   );
 };
 export default Pricing;
+
+// #c572721a
+//#ff6b82
