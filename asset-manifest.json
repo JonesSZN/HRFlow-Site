@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/hr-flow/static/css/main.2387e1b3.css",
-    "main.js": "/hr-flow/static/js/main.d29e3e62.js",
+    "main.css": "/hr-flow/static/css/main.682308a7.css",
+    "main.js": "/hr-flow/static/js/main.0f0495c5.js",
     "index.html": "/hr-flow/index.html",
-    "main.2387e1b3.css.map": "/hr-flow/static/css/main.2387e1b3.css.map",
-    "main.d29e3e62.js.map": "/hr-flow/static/js/main.d29e3e62.js.map"
+    "main.682308a7.css.map": "/hr-flow/static/css/main.682308a7.css.map",
+    "main.0f0495c5.js.map": "/hr-flow/static/js/main.0f0495c5.js.map"
   },
   "entrypoints": [
-    "static/css/main.2387e1b3.css",
-    "static/js/main.d29e3e62.js"
+    "static/css/main.682308a7.css",
+    "static/js/main.0f0495c5.js"
   ]
 }
