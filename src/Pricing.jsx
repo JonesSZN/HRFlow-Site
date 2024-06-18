@@ -105,8 +105,8 @@ const SaveRow = () => {
         ></div>
 
         <div
-          className={`bg-[#ff6b82]  absolute z-[999] w-[55px] h-[38px] rounded-full  ${
-            Slider ? "left-2" : "right-2"
+          className={`bg-[#ff6b82] transition-all duration-300  absolute z-[999] w-[55px] h-[38px] rounded-full  ${
+            Slider ? "left-2" : "left-[calc(50%+8px)]"
           } `}
         ></div>
       </button>
